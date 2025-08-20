@@ -10,7 +10,7 @@ const CTA = () => {
           Begin the journey to excellence for your child. Applications are now open for the {new Date().getFullYear() - 1}/{new Date().getFullYear()} academic session.
         </p>
         <a
-          href="/apply"
+          href="admission/apply"
           className="flex justify-self-center px-8 py-3 bg-gray-50 text-gray-800 rounded-lg font-semibold shadow hover:bg-gray-200 transition-all duration-300 "
         >
           Start Application
