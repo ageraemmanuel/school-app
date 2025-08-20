@@ -1,11 +1,15 @@
-import HowToApply from "@/components/HowToApply"
+import AdmissionComponent from '@/components/AdmissionComponent'
+import Question from '@/components/Question'
 
-const HowPage = () => {
+const AdmissionPage = () => {
   return (
     <div>
-      <HowToApply />
+      <AdmissionComponent />
+
+      {/* To be redirected to contact page */}
+      <Question />
     </div>
   )
 }
 
-export default HowPage
+export default AdmissionPage

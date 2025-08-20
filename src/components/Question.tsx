@@ -2,7 +2,7 @@ import Link from "next/link"
 
 const Question = () => {
   return (
-    <div className="flex justify-center items-center py-10">
+    <div className="flex justify-center items-center py-10 px-4">
       <div>
         <h3 className="text-center my-4 text-3xl md:text-5xl">
           Have Any Question❓
