@@ -26,6 +26,11 @@ const applicationSteps = [
   },
   {
     id: 5,
+    title: 'Await Admission Decision',
+    content: `Please note that a successful application is not a gurrantee of getting your child admitted after appication your child examine base on the test conditions if successful you will be notify`,
+  },
+  {
+    id: 6,
     title: 'If Approved Complete Enrolment',
     content: `Once your child is accepted, complete the enrollment process, including payment of tuition fees, submission of additional required documents, and attending orientation sessions.`,
   },
@@ -35,7 +40,7 @@ const applicationSteps = [
 const HowToApply = () => {
   return (
     <div className="min-h-screen max-w-screen">
-      <h1 className="text-3xl text-center md:tex-5xl text-white bg-amber-500 font-extrabold py-16"><span className="border-b-4 pb-3 border-b-amber-300">How To </span>How To Apply </h1>
+      <h1 className="text-3xl text-center md:tex-5xl text-white bg-amber-500 font-extrabold py-16"><span className="border-b-4 pb-3 border-b-white">How To </span>How To Apply </h1>
       <p className="my-4 leading-relaxed max-w-3xl mx-auto">
         Welcome to <span className="font-bold text-amber-500">MySchool</span>, where we strive to provide an exceptional education and nurturing environment for your child&apos;s growth and development.
       </p>
