@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useState } from "react";
 
 const content = [
@@ -48,9 +49,11 @@ export default function TestimonialScroller() {
               key={i}
               className="min-w-[320px] max-w-sm bg-white shadow-xl hover:shadow-lg border-amber-300 border-2 hover:border-8 rounded-2xl p-6 flex-shrink-0 flex flex-col items-center text-center transition-all duration-500"
             >
-              <img
+              <Image
                 src={item.img}
                 alt={item.name}
+                width={20}
+                height={20}
                 className="w-20 h-20 rounded-full object-cover border-4 border-blue-500 shadow-md"
               />
               <p className="text-gray-600 italic mt-4">“{item.desc}”</p>
