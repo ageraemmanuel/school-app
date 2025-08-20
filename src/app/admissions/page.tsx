@@ -5,6 +5,8 @@ const AdmissionPage = () => {
   return (
     <div>
       <AdmissionComponent />
+
+      {/* To be redirected to contact page */}
       <Question />
     </div>
   )
