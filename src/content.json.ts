@@ -2,8 +2,8 @@ export const homeContent = [
   {
     imgUrl: `https://images.unsplash.com/photo-1632215861513-130b66fe97f4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TmlnZXJpYW4lMjBzdHVkZW50fGVufDB8fDB8fHww`,
     message: {
-      title: "Boast crediblit",
-      content: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident aperiam  ea laboriosam reiciendis, dicta officiis. Repudiandae, at.`
+      title: "Shaping Bright Futures",
+      content: `At My school, we combine academic excellence, creativity, and character development to prepare your child for a successful tomorrow.`
     }
 
   },
@@ -48,3 +48,4 @@ export const homeContent = [
 
   }
 ]
+
